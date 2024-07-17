@@ -1,0 +1,15 @@
+
+
+
+/* basic typography setup start */
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+/* basic typography setup end */
+/* css variable part start */
+:root{
+    --btn-back:rgb(230, 83, 60);
+}
+/* css variable part end */
