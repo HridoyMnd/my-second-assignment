@@ -14,6 +14,7 @@ body{
 :root{
     --text-color:#fff;
     --btn-back:rgb(230, 83, 60);
+    --paragraph-text:rgba(255, 255, 255, 0.5);
 }
 /* basic typhography setup end */
 /* header section design start */
@@ -100,6 +101,60 @@ body{
     color: rgba(255, 255, 255, 0.65);
   }
 /* header section design end */
+
+/* main section design start */
+.habbit-section {
+    width: 1044px;
+    margin: 100px auto;
+    text-align: center;
+}
+.habbit-header{
+    width: 670px;
+}
+.habbit-header h1{
+    color:var(--text-color);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+}
+.habbit-header p{
+    color:var(--paragraph-text);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color:var(--paragraph-text);
+}
+.img-container{
+    text-align:center;
+    width: 200px;
+    margin-top:58px;
+}
+.img-container img{
+    border-radius: 50%;
+    border:5px solid #d1cece28;
+}
+.habbit-text{
+    margin-top:30px;
+}
+.habbit-text h2{
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 120%;
+    color:var(--text-color);
+}
+.habbit-text p{
+    color:var(--paragraph-text);
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+}
+/* main section design end */
+
+
+
+
 /* compunent section start */
 a{
     border-radius: 18px;
@@ -190,14 +245,7 @@ button{
 }
 /* component sectton end */
 
-/* .img-container{
-    text-align:center;
-    width: 200px;
-}
-.img-container img{
-    border-radius: 50%;
-    border:5px solid #1a17173d;
-} */
+
 
 /* .team-member{
     max-width: 320px;
