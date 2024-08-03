@@ -111,19 +111,8 @@ body{
 .habbit-header{
     width: 670px;
 }
-.habbit-header h1{
-    color:var(--text-color);
-    font-size: 48px;
-    font-weight: 900;
-    line-height: 120%;
-}
-.habbit-header p{
-    color:var(--paragraph-text);
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.3px;
-    color:var(--paragraph-text);
+.head-text p{
+    margin-top: 14px;
 }
 .img-container{
     text-align:center;
@@ -143,19 +132,32 @@ body{
     letter-spacing: 120%;
     color:var(--text-color);
 }
-.habbit-text p{
-    color:var(--paragraph-text);
-    font-size: 0.8rem;
-    font-weight: 400;
-    line-height: 18px;
-    letter-spacing: 0.3px;
+.extra-run{
+    border-radius: 10px;
+    width: 1060px;
+    background: rgb(34, 34, 34);
 }
+.extra-run .left{
+    width: 443px;
+    padding:40px 0px 40px 54px;
+}
+.extra-run .left p{
+    margin: 14px 0px 34px;
+}
+.extra-run .right img{
+    border-radius: 10px;
+    margin:30px 32px 30px 0px;
+    width: 360px;
+    height: 312px;
+}
+
 /* main section design end */
 
 
 
 
 /* compunent section start */
+
 a{
     border-radius: 18px;
     text-decoration:none;
@@ -164,7 +166,20 @@ a{
     font-weight: 600;
     color:var(--text-color);
 }
+.p-text{
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+    color:var(--paragraph-text);
+    letter-spacing: 0.3px;
+}
+.head-text{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    color:var(--text-color);
 
+}
 .center{
     display: flex;
     align-items: center;
