@@ -144,16 +144,120 @@ body{
 .extra-run .left p{
     margin: 14px 0px 34px;
 }
-.extra-run .right img{
+.extra-run .right{
     border-radius: 10px;
     margin:30px 32px 30px 0px;
     width: 360px;
     height: 312px;
+    background-image: url("../images/run.jpg");
 }
-
+/* team-member section design start */
+.team-member{
+    min-height: 50px;
+    width: 1060px;
+    margin:88px auto;
+}
+.team-member .header{
+    margin:0 auto;
+    width: 671px;
+    text-align: center;
+}
+.team-member .header h1{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+}
+.team-member .header p{
+    color: var(--paragraph-text);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    line-height: 24px;
+    margin-top: 14px;
+}
+.team-member .footer{
+    width: 100%;
+    min-height: 100px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 78px;
+}
+.team-member .footer .id-container img{
+    width: 326px;
+    height: 272px;
+    border-radius: 16px;
+    
+}
+.team-member .footer .id-container{
+    position:relative;
+}
+.team-member .footer .id-container .title{
+    position:absolute;
+    bottom: 30px;
+    left: 20px;
+}
+.title h3{
+    font-size: 16px;
+    color:var(--text-color);
+    font-weight: 700;
+    letter-spacing: 0.3px;
+}
+.team-member .footer{
+    flex-wrap: wrap;
+    gap:20px;
+    padding:20px;
+}
+/* team-member section design end */
 /* main section design end */
 
+/* footer section design start */
+.footer-container{
+    width: 1440px;
+}
+ .footer-left{
+    width: 443px;
+    min-height: 200px;
+}
+.footer-left h1{
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 120%;
+    color:var(--btn-back);
+    margin-bottom: 20px;
 
+}
+.footer-center, .footer-right{
+    width: 250px;
+    min-height: 200px;
+   
+}
+
+.footer-center h2, .footer-right h2{
+    color:var(--text-color);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    margin:0px 0px 38px 25px;
+    display: inline-block;
+}
+.footer-center li, .footer-right li{
+    list-style: none;
+    margin-bottom:20px;
+}
+.links a{
+    color:var(--paragraph-text);
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 120%;
+    
+}
+
+.footer-container .header{
+    margin:66px auto 80px;
+    width: 1060px;
+}
+/* footer section design end */
 
 
 /* compunent section start */
@@ -166,6 +270,7 @@ a{
     font-weight: 600;
     color:var(--text-color);
 }
+
 .p-text{
     font-size: 0.8rem;
     font-weight: 400;
@@ -180,6 +285,7 @@ a{
     color:var(--text-color);
 
 }
+
 .center{
     display: flex;
     align-items: center;
@@ -262,17 +368,5 @@ button{
 
 
 
-/* .team-member{
-    max-width: 320px;
-    position:relative;
-}
- .team-member img{
-    max-width:100%;
-    border-radius: 20px;
- }
- .identity{
-    position:absolute;
-    bottom:20px;
-    left: 15px;
-    color:#fff;
+/* 
  } */
