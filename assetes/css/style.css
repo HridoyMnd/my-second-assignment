@@ -318,12 +318,10 @@ input{
     line-height: 120%;
     color:var(--btn-back);
     margin-bottom: 20px;
-
 }
 .footer-center, .footer-right{
     width: 250px;
-    min-height: 200px;
-   
+    min-height: 200px; 
 }
 
 .footer-center h2, .footer-right h2{
@@ -345,15 +343,28 @@ input{
     line-height: 120%;
     
 }
-
 .footer-container .header{
     margin:66px auto 80px;
     width: 1060px;
 }
+hr{
+    border: 1px solid #444;
+    width: 1060px;
+    margin: 0px auto;
+}
+.reserved h4{
+    margin: 36px auto;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: var(--paragraph-text);
+}
 /* footer section design end */
 
 
-/* compunent section start */
+/* component section start */
 
 a{
     border-radius: 18px;
@@ -378,7 +389,6 @@ a{
     color:var(--text-color);
 
 }
-
 .center{
     display: flex;
     align-items: center;
@@ -390,7 +400,7 @@ a{
     justify-content:space-between;
 }
 .back{
-    background-position: 130%;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
