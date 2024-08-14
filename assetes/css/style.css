@@ -278,7 +278,7 @@ input{
 .team-member .footer .id-container img{
     width: 326px;
     height:272px;
-    object-fit: contain;
+    object-fit: cover;
     border-radius: 16px;
     
 }
