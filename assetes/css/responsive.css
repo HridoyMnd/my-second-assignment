@@ -1,0 +1,11 @@
+@media screen and (max-width:576px) {
+    .navbar nav{
+        display: none;
+    }
+    .navbar i{
+        display: block;
+    }
+    .header-section{
+        padding: 20px;
+    }
+}
