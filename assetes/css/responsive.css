@@ -69,6 +69,23 @@
         height: 1.5rem;
       }
     }
+    /* team member section responsive design start */
+    @media screen and (max-width:576px) {
+        .team-member .header{
+            width: 309px;
+        }
+        .team-member .header h1{
+            font-size: 32px;
+        }
+        .team-member .footer{
+            width: 353px;
+            margin:57px auto;
+        }
+        .team-member .footer .id-container img{
+             width: 315px;
+        }
+    }
+    /* team member section responsive design end */
 /* footer-section responsive design start */
 @media screen and (max-width:576px) {
 .footer-container .header{

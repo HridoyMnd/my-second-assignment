@@ -362,12 +362,12 @@ input{
 /* team-member section design start */
 .team-member{
     /* min-height: 50px; */
-    width: 1060px;
+    max-width: 1060px;
     margin:88px auto;
 }
 .team-member .header{
     margin:0 auto;
-    width: 671px;
+    max-width: 671px;
     text-align: center;
 }
 .team-member .header h1{
@@ -385,7 +385,7 @@ input{
     margin-top: 14px;
 }
 .team-member .footer{
-    width: 100%;
+    max-width:100%;
     /* min-height: 100px; */
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.1);
