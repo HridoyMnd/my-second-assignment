@@ -38,10 +38,10 @@ body{
 }
 
 .hero-section{
-    width: 1060px;
+    max-width: 1060px;
 }
 .hero-section .hero-left{
-    width: 520px;
+    max-width: 520px;
 }
 .hero-left h1{
     font-size: 78px;
@@ -422,11 +422,11 @@ input{
 
 /* footer section design start */
 .footer-container{
-    width: 1440px;
+    max-width: 1440px;
 }
  .footer-left{
-    width: 443px;
-    min-height: 200px;
+    max-width: 443px;
+    /* min-height: 50px; */
 }
 .footer-left h1{
     font-size: 70px;
@@ -461,11 +461,11 @@ input{
 }
 .footer-container .header{
     margin:66px auto 80px;
-    width: 1060px;
+    max-width: 1060px;
 }
 hr{
     border: 1px solid #444;
-    width: 1060px;
+    max-width: 1060px;
     margin: 0px auto;
 }
 .reserved h4{

@@ -6,6 +6,85 @@
         display: block;
     }
     .header-section{
-        padding: 20px;
+        margin: 20px;
     }
+    .left-head{
+        max-width: 265px;
+    }
+    .hero-left{
+        margin:20px;
+    }
+    .left-head h1{
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 120%;
+    }
+    .left-head h1 span{
+        font-weight: 400;
+        font-size: 38px;
+    }
+    .hero-left p{
+        max-width: 274px;
+    }
+    .button-section{
+        display:flex;
+    }
+    .button-section .btn{
+        padding: 14px 40px;
+    }
+    .hero-section{
+        flex-direction: column;
+    }
+    .hero-right{
+        max-width: 353px;
+        border:1px solid red;
+
+    }
+    .hero-right img{
+        max-width: 70%;
+    }
+    .card1 {
+        top:47px;
+        right: 12px;
+      }
+      .card1 small{
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 15px;
+        letter-spacing: 0.7px;
+      }
+      .card1 h1{
+        font-size: 30px;
+      }
+      .video{
+        width:155px;
+      }
+    .card2 {
+        top: 271px;
+        left: 12px;
+        
+      }
+      .card2 .logo{
+        width: 1.5rem;
+        height: 1.5rem;
+      }
+    }
+/* footer-section responsive design start */
+@media screen and (max-width:576px) {
+.footer-container .header{
+    display: flex;
+    flex-direction: column;
+    margin:0px;
 }
+.footer-left{
+    width: 317px;
+    margin:0px 56px 30px 10px;
+    text-align: left;
+}
+.footer-center, .footer-right{
+    margin-left:-150px;
+    text-align: left;
+}
+}
+
+/* footer-section responsive design end */
