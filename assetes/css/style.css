@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Parisienne&display=swap');
 
 /* basic typography setup start */
 *{
@@ -41,8 +42,9 @@ body{
     color:var(--text-color);
 }
 .hero-left h1 span{
-    font-family: "Cookie", cursive;
+    font-family: "Parisienne", cursive;
     font-weight: 400;
+    font-size: 88px;
 }
 .hero-left p{
     color: rgba(255, 255, 255, 0.5);
@@ -133,7 +135,7 @@ body{
     color:var(--text-color);
 }
 .extra-run{
-    border-radius: 10px;
+    border-radius: 20px;
     width: 1060px;
     background: rgb(34, 34, 34);
 }
@@ -145,12 +147,102 @@ body{
     margin: 14px 0px 34px;
 }
 .extra-run .right{
-    border-radius: 10px;
-    margin:30px 32px 30px 0px;
-    width: 360px;
-    height: 312px;
-    background-image: url("../images/run.jpg");
+    padding: 25px;
 }
+.extra-run .right img{
+    object-fit: none;
+    object-position: 67% 34%;
+    width: 24rem;
+    height: 22rem;
+    border-radius: 20px;
+}
+/* calculator section design start */
+.bmi-calculator-section{
+    width: 1344px;
+    margin:88px auto;
+    min-height: 300px;
+}
+.bmi-title{
+    width: 576px;
+    min-height: 100px;
+    margin:66px auto;
+}
+.bmi-footer{
+    width: 1344px;
+    min-height: 500px;
+    margin:0 auto;
+    background: rgb(34, 34, 34);
+}
+.bmi-footer-container{
+    width: 1020px;
+    min-height: 300px;
+    margin:52px auto;
+}
+.bmi-footer-left, .bmi-footer-right{
+    width: 550px;
+    min-height: 200px;
+    margin-top: 52px;
+}
+.bmi-footer-left-title{
+    margin-bottom: 52px;
+}
+.bmi-table {
+    border-collapse: collapse;
+}
+.bmi-head{
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    color:var(--text-color);
+  
+}
+.bmi-para{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    color: var(--paragraph-text);
+    margin-top: 14px;
+}
+.bmi-footer-right p{
+    margin:14px 0px 34px 0px;
+}
+input::placeholder, option, select{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: var(--paragraph-text);
+}
+option, select, input{
+    background-color: rgb(39, 39, 44);
+}
+input, .sel1{
+    padding: 12px 40px 12px 20px;
+    border:none;
+    margin:5px;
+    width: 240px;
+    border-radius:8px;
+}
+input{
+    color:#ffff;
+}
+.sel2{
+   
+    padding: 12px 40px 12px 20px;
+    border:none;
+    width: 98%;
+    border-radius:8px;
+    margin:5px auto 34px;
+}
+
+
+.bmi-table th, .bmi-table td {
+    padding: 12px 15px;
+    border: 1px solid #444;
+    text-align: left;
+    color: #aaa;
+}
+
 /* team-member section design start */
 .team-member{
     min-height: 50px;
@@ -185,7 +277,8 @@ body{
 }
 .team-member .footer .id-container img{
     width: 326px;
-    height: 272px;
+    height:272px;
+    object-fit: contain;
     border-radius: 16px;
     
 }
@@ -297,9 +390,9 @@ a{
     justify-content:space-between;
 }
 .back{
-    background-position: center;
+    background-position: 130%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 /* .prnt-bdr{
     border:1px solid red;
