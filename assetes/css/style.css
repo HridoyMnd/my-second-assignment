@@ -171,9 +171,9 @@ body{
 }
 /* calculator section design start */
 .bmi-calculator-section{
-    width: 1344px;
+    max-width: 1344px;
     margin:88px auto;
-    min-height: 300px;
+    /* min-height: 300px; */
 }
 .bmi-title{
     width: 576px;
@@ -181,20 +181,20 @@ body{
     margin:66px auto;
 }
 .bmi-footer{
-    width: 1344px;
+    max-width: 1344px;
     min-height: 500px;
     margin:0 auto;
     background: rgb(34, 34, 34);
 }
 .bmi-footer-container{
-    width: 1020px;
-    /* min-height: 300px; */
+    max-width: 1020px;
+    min-height: 300px;
     margin:52px auto;
 }
 .bmi-footer-left, .bmi-footer-right{
-    width: 550px;
+    max-width: 550px;
     /* min-height: 200px; */
-    margin-top: 52px;
+    margin: 52px auto 0px;
 }
 .bmi-footer-left-title{
     margin-bottom: 52px;
@@ -227,7 +227,7 @@ input::placeholder, option, select{
     color: var(--paragraph-text);
 }
 option, select, input{
-    background-color: rgb(39, 39, 44);
+    background-color: rgb(79, 79, 82);
 }
 input, .sel1{
     padding: 12px 40px 12px 20px;
@@ -239,11 +239,14 @@ input, .sel1{
 input{
     color:#ffff;
 }
+.sel1{
+    padding: 10px 40px 10px 10px;
+}
 .sel2{
-   
-    padding: 12px 40px 12px 20px;
+    margin-left: 200px;
+    padding: 10px 40px 10px 10px;
     border:none;
-    width: 98%;
+    width: 92%;
     border-radius:8px;
     margin:5px auto 34px;
 }
@@ -386,7 +389,6 @@ input{
 }
 .team-member .footer{
     max-width:100%;
-    /* min-height: 100px; */
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.1);
     margin-top: 78px;
@@ -426,7 +428,6 @@ input{
 }
  .footer-left{
     max-width: 443px;
-    /* min-height: 50px; */
 }
 .footer-left h1{
     font-size: 70px;
@@ -437,7 +438,6 @@ input{
 }
 .footer-center, .footer-right{
     width: 250px;
-    /* min-height: 200px;  */
 }
 
 .footer-center h2, .footer-right h2{
