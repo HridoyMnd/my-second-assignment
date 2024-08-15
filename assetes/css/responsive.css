@@ -4,12 +4,17 @@
     }
     .navbar i{
         display: block;
+        cursor: pointer;
     }
     .header-section{
-        margin: 20px;
+        margin:0px 20px;
+    }
+    .header-section .logo{
+        cursor: pointer;
     }
     .left-head{
         max-width: 265px;
+        /* cursor: pointer; */
     }
     .hero-left{
         margin:20px;
@@ -37,8 +42,6 @@
     }
     .hero-right{
         max-width: 353px;
-        border:1px solid red;
-
     }
     .hero-right img{
         max-width: 70%;
@@ -46,6 +49,7 @@
     .card1 {
         top:47px;
         right: 12px;
+        height: 80px;
       }
       .card1 small{
         font-weight: 400;
@@ -64,9 +68,18 @@
         left: 12px;
         
       }
+      .card2{
+        width: 163px;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+      }
       .card2 .logo{
-        width: 1.5rem;
-        height: 1.5rem;
+         text-align: left;
+        width: 1.6rem;
+        height: 1.6rem;
+        margin-left: -10px;
+        cursor: pointer;
       }
     }
     /* habbit section responsive design start */
@@ -91,6 +104,11 @@
         }
         .extra-run .left{
             width:80%;
+            margin:0px auto;
+        
+        }
+        .extra-run .right{
+            margin:0px auto;
         }
         .extra-run .left h1{
             font-size: 32px;
@@ -142,7 +160,28 @@
         }
     }
     /* bmi calaulator section design end */
-
+    /* my section responsive design start */
+    @media screen and (max-width:576px) {
+        .my-section{
+            flex-direction: column;
+            justify-content: center;
+           
+        }
+        .my-section-content{
+            width: 353px;
+        }
+        .my-section-title{
+            width: 353px;
+        }
+        .my-section-title h1{
+            font-size: 32px;
+        }
+        .my-section-content .img-box{
+            width: 282px;
+            margin:0 auto;
+        }
+    }
+    /* my section responsive design end */
     /* team member section responsive design start */
     @media screen and (max-width:576px) {
         .team-member .header{
