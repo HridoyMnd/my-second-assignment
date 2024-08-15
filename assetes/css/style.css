@@ -120,19 +120,19 @@ body{
 /* main section design start */
 /* habbit section design start */
 .habbit-section {
-    width: 1044px;
+    max-width: 1044px;
     margin: 100px auto;
     text-align: center;
 }
 .habbit-header{
-    width: 670px;
+    max-width: 670px;
 }
 .head-text p{
     margin-top: 14px;
 }
 .img-container{
     text-align:center;
-    width: 200px;
+    max-width: 200px;
     margin-top:58px;
 }
 .img-container img{
