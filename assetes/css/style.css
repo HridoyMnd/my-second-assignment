@@ -118,6 +118,7 @@ body{
 /* header section design end */
 
 /* main section design start */
+/* habbit section design start */
 .habbit-section {
     width: 1044px;
     margin: 100px auto;
@@ -147,13 +148,15 @@ body{
     letter-spacing: 120%;
     color:var(--text-color);
 }
+/* habbit section design end */
+/* extra run section design start */
 .extra-run{
     border-radius: 20px;
-    width: 1060px;
+    max-width: 1060px;
     background: rgb(34, 34, 34);
 }
 .extra-run .left{
-    width: 443px;
+    max-width: 443px;
     padding:40px 0px 40px 54px;
 }
 .extra-run .left p{
@@ -165,10 +168,11 @@ body{
 .extra-run .right img{
     object-fit: none;
     object-position: 67% 34%;
-    width: 24rem;
+    max-width: 24rem;
     height: 22rem;
     border-radius: 20px;
 }
+/* extra run section design end */
 /* calculator section design start */
 .bmi-calculator-section{
     max-width: 1344px;

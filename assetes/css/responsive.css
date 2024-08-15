@@ -69,7 +69,28 @@
         height: 1.5rem;
       }
     }
-
+    /* extra run section responsive design start */
+    @media screen and (max-width:576px) {
+        .extra-run{
+        flex-direction: column;
+        margin: 0px 20px;
+        align-items: start;
+        }
+        .extra-run .left{
+            width:80%;
+        }
+        .extra-run .left h1{
+            font-size: 32px;
+        }
+        .extra-run .right img{
+            object-fit: none;
+            object-position: 67% 34%;
+            max-width: 21rem;
+            height: 19rem;
+            border-radius: 20px;
+        }
+    }
+    /* extra run section responsive design end */
     /* bmi calaulator section design start */
     @media screen and (max-width:576px) {
         .bmi-title{
@@ -106,10 +127,6 @@
         .sel2{
             width: 98%;
         }
-        /* .bmi-input-group{
-            display: flex;
-            flex-wrap: wrap;
-        } */
     }
     /* bmi calaulator section design end */
 
