@@ -1,3 +1,5 @@
+
+/* header section responsive design start */
 @media screen and (max-width:576px) {
     .navbar nav{
         display: none;
@@ -12,31 +14,12 @@
     .header-section .logo{
         cursor: pointer;
     }
-    .left-head{
-        max-width: 265px;
-        /* cursor: pointer; */
-    }
-    .hero-left{
-        margin:20px;
-    }
-    .left-head h1{
-        font-size: 36px;
-        font-weight: 900;
-        line-height: 120%;
-    }
-    .left-head h1 span{
-        font-weight: 400;
-        font-size: 38px;
-    }
-    .hero-left p{
-        max-width: 274px;
-    }
-    .button-section{
-        display:flex;
-    }
-    .button-section .btn{
-        padding: 14px 40px;
-    }
+    
+}
+    /* header section responsive design end */
+    /* hero section responsive design start */
+    @media screen and (max-width:576px) {
+     
     .hero-section{
         flex-direction: column;
     }
@@ -81,14 +64,50 @@
         margin-left: -10px;
         cursor: pointer;
       }
+      .button-section{
+        display:flex;
     }
+    .button-section .btn{
+        padding: 14px 40px;
+    }
+    .left-head{
+        max-width: 265px;
+        /* cursor: pointer; */
+    }
+    .hero-left{
+        margin:20px;
+    }
+    .left-head h1{
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 120%;
+    }
+    .left-head h1 span{
+        font-weight: 400;
+        font-size: 38px;
+    }
+    .hero-left p{
+        max-width: 274px;
+    }
+       
+}
+@media screen and (max-width:467px) {
+    .button-section .btn{
+        padding:10px 20px;
+    }
+}
+    /* hero section responsive design end */
     /* habbit section responsive design start */
     @media screen and (max-width:576px) {
+        .habbit-section{
+            margin:10px auto 50px;
+        }
         .habbit-footer{
             flex-direction: column;
         }
         .habbit-header{
             max-width: 318px;
+
         }
         .habbit-header h1{
             font-size: 32px;
